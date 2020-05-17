@@ -9,6 +9,6 @@ public final class BuildConfig
 
    public static final String NAME = "MagazBot";
 
-   public static final String DISCORD_TOKEN = "NzExNTEwNTkzMzc4NDUxNTM2.XsEFlA.Wfq0uxodpMVIaVzjEkYgW_EYIpY";
+   public static final String DISCORD_TOKEN = "NzExNTEwNTkzMzc4NDUxNTM2.XsF9_g.i1dPYCy4v-ipCVfZLu-kCFAUYQo";
 
 }

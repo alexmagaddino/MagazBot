@@ -20,6 +20,13 @@ suspend fun main() {
             command("mov") {
                 reply(getMovement(getFirstArgs()))
             }
+
+            command("i") {
+                reply(insulti.random())
+            }
+            command("insulta") {
+                reply(insulti.random())
+            }
         }
     }
 }
