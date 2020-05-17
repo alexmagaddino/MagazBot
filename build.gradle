@@ -14,7 +14,9 @@ version '1.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 buildConfig {
-    buildConfigField "String", "DISCORD_TOKEN", System.properties['discord_token']
+    def properties = new Properties()
+    properties.load(file("C:\\Users\\alexm\\discord_bot_token.properties").newDataInputStream())
+    buildConfigField "String", "DISCORD_TOKEN", properties['discord_token'].toString()
 }
 
 repositories {
