@@ -3,7 +3,7 @@ import com.jessecorbett.diskord.dsl.command
 import com.jessecorbett.diskord.dsl.commands
 import it.alexm.BuildConfig
 
-suspend fun main() {
+suspend fun main(args: Array<String>) {
 
     bot(BuildConfig.DISCORD_TOKEN) {
         commands("!") {
